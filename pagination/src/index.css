@@ -1,0 +1,33 @@
+/* @import "tailwindcss" */
+.heading{
+    font-size: 50px;
+    text-align: center;
+    margin-block: 20px;
+}
+li{
+    list-style: none;
+}
+
+.card-container{
+    display: grid;
+    grid-template-columns: repeat(4, minmax(200px, 250px));
+    gap: 20px;
+
+    & img{
+        width: 150px;
+        aspect-ratio: 1;
+    }
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    border: 2px solid grey;
+    padding: 10px;
+}
+
+.page-div{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
