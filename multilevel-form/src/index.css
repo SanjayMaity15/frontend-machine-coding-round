@@ -1,0 +1,90 @@
+
+
+.container {
+	max-width: 600px;
+	margin-inline: auto;
+	margin-top: 12px;
+}
+
+.step-container {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	gap: 10px;
+	font-weight: 700;
+	margin-bottom: 20px;
+}
+
+.step {
+	background: rgb(150, 162, 173);
+	padding: 12px 20px;
+	font-size: 18px;
+	border-radius: 100%;
+}
+
+.line {
+	background: rgb(150, 162, 173);
+	flex: 1;
+	height: 5px;
+}
+
+.active {
+	background: green;
+	color: aliceblue;
+}
+
+
+.form-heading{
+  font-size: 24px;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+label{
+  display: block;
+  font-size: 14px;
+  font-weight: 600;
+  margin-top: 10px;
+}
+
+input, select{
+  border: none;
+  outline: 1px solid gray;
+  width: 100%;
+  border-radius: 5px;
+  padding: 5px 10px;
+}
+
+#term{
+  outline: none;
+  width: 20px;
+  margin-top: 10px;
+}
+
+.flex{
+  display: flex;
+    justify-content: start;
+    align-items: center;
+
+}
+
+button{
+  background: rgb(111, 111, 236);
+  padding: 5px 20px;
+  border-radius: 5px;
+  margin-top: 20px;
+  display: flex;
+  color: aliceblue;
+  
+}
+
+
+.btn-container{
+  display: flex;
+  justify-content: end;
+  gap: 10px;
+}
+.prev{
+  background: red;
+}
