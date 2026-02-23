@@ -1,0 +1,22 @@
+.search-box{
+  max-width: 450px;
+  margin: auto;
+}
+h1{
+  text-align: center;
+}
+
+input{
+  width: 100%;
+  padding: 10px;
+}
+
+.related-box{
+  max-height: 300px;
+  overflow: hidden;
+}
+
+p:hover{
+  background-color: antiquewhite;
+  margin-top: 2px;
+}
