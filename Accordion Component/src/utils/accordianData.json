@@ -1,0 +1,52 @@
+[
+	{
+		"id": 1,
+		"title": "What is an accordion component?",
+		"content": "An accordion is a UI element used to expand and collapse sections of related content."
+	},
+	{
+		"id": 2,
+		"title": "Why use an accordion?",
+		"content": "It helps organize large amounts of content in a compact space."
+	},
+	{
+		"id": 3,
+		"title": "Where is it commonly used?",
+		"content": "FAQs, dashboards, settings pages, and mobile apps."
+	},
+	{
+		"id": 4,
+		"title": "How does it work?",
+		"content": "Clicking a header toggles visibility of its content section."
+	},
+	{
+		"id": 5,
+		"title": "Can multiple sections be open?",
+		"content": "Yes, depending on implementation rules, either single or multiple sections can stay open."
+	},
+	{
+		"id": 6,
+		"title": "Is it mobile-friendly?",
+		"content": "Yes, accordions are widely used in responsive and mobile-first designs."
+	},
+	{
+		"id": 7,
+		"title": "What technologies support accordions?",
+		"content": "HTML, CSS, JavaScript, and frameworks like React, Angular, and Vue."
+	},
+	{
+		"id": 8,
+		"title": "Are accordions accessible?",
+		"content": "They can be made accessible using ARIA attributes and proper keyboard navigation."
+	},
+	{
+		"id": 9,
+		"title": "What is the benefit of using accordions?",
+		"content": "They improve user experience by reducing page clutter and improving readability."
+	},
+	{
+		"id": 10,
+		"title": "Can animations be added?",
+		"content": "Yes, smooth transitions can be added using CSS or JavaScript animations."
+	}
+]
