@@ -12,9 +12,14 @@ const App = () => {
 		);
 
 		const data = await res.json();
-
+		console.log(data);
 		setSearchRelatedValue(data.recipes);
 		setCache((prev) => ({ ...prev, [search]: data.recipes }));
+	}
+
+	function handleSelect(value) {
+		setSearch(value);
+		setShowSug(false);
 	}
 
 	useEffect(() => {
@@ -43,7 +48,12 @@ const App = () => {
 			<div className="related-box">
 				{showSug &&
 					searchRelatedValue?.map((elem) => (
-						<p key={elem.id}>{elem.name}</p>
+						<p
+							key={elem.id}
+							onMouseDown={() => handleSelect(elem.name)}
+						>
+							{elem.name}
+						</p>
 					))}
 			</div>
 		</div>
